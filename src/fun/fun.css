@@ -1,0 +1,21 @@
+#fun ul{
+    background: red;
+    list-style: none;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#fun .total li{
+    background: yellow;
+    flex-grow: 1;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#fun .total li:hover{
+    background: blue;
+    cursor: pointer;
+}

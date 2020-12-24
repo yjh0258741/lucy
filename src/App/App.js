@@ -1,11 +1,11 @@
 
 import './App.css';
 import Home from '../Home/Home'
+import Fun from '../fun/fun'
 function App() {
   return (
     <div>
-     123
-     <Home></Home>
+     <Fun></Fun>
     </div>
   );
 }
